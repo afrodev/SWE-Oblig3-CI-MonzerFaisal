@@ -29,3 +29,6 @@ def test_non_leap_year_divisible_by_4_and_100_but_not_400():
 # Leap year. edge case: divisible by 4 and 100 and 400
 def test_leap_year_divisible_by_4_and_100_and_400():
     assert isLeapYear(2000) == True
+
+def test_random_year_for_CI():
+    assert isLeapYear(2005) == False
