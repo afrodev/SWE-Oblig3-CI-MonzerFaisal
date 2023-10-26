@@ -5,3 +5,9 @@
 3. Created README.md and made repo public
 4. Published repo
 5. Created .yaml file in .workflow folder by going into Actions and selecting "Skip this step"
+6. Pulled changes from Origin
+7. The files i need for testing are already here so I just configure /workflows/main.yml
+8. Configure the /workflows/main.yml file.
+9. Push the file to your GitHub repository.
+10. GitHub will automatically create a workflow and run your tests.
+11. View the status of the workflow in the Actions tab.
